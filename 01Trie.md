@@ -1,3 +1,5 @@
+## 01字典树
+
 ``` c++
 int tot, tr[32 * MAXN][2], val[32 * MAXN];
 
