@@ -1,3 +1,5 @@
+# 算法
+
 ## 算法基础
 
 [枚举](/enumerate.md)&emsp;[模拟](/simulation.md)&emsp;[递归](/conquer.md)&emsp;
