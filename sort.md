@@ -13,7 +13,7 @@ int main ()
     scanf("%d", &n);
     for (int i = 1; i <= n; ++i)
     {
-        scanf(%d", &t);
+        scanf("%d", &t);
         book[t]++;
     }
     for (int i = 0; i < MAXN; ++i)
