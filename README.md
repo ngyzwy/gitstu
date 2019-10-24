@@ -2,8 +2,7 @@
 
 ## 算法基础
 
-[递归&分治](conquer.md)&emsp;
-[贪心](greedy.md)&emsp;[排序](sort.md)&emsp;
+[递归&分治](conquer.md)&emsp;[排序](sort.md)&emsp;
 [二分](binary.md)&emsp;[三分](three_points.md)&emsp;[倍增](binary_acc.md)&emsp;
 [构造](construction.md)&emsp;[前缀和](prefix_sum.md)&emsp;[差分](difference.md)&emsp;
 
