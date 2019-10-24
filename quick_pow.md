@@ -6,7 +6,7 @@ long long quick_pow(long long x, long long y)
     {
         if (y & 1)
         {
-		    res = res * x % mod;
+            res = res * x % mod;
         }
         x = x * x % mod;
         y >>= 1;
