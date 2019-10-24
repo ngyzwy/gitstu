@@ -1,3 +1,32 @@
+## 桶排序
+
+``` c++
+#include <cstdio>
+using namespace std;
+
+const int MAXN = 1e5 + 3; //桶的大小要大于待排序中数字的最大值
+int book[MAXN]; //声明一个桶，初始化为0
+
+int main ()
+{
+    int t, n;
+    scanf("%d", &n);
+    for (int i = 1; i <= n; ++i)
+    {
+        scanf(%d", &t);
+        book[t]++;
+    }
+    for (int i = 0; i < MAXN; ++i)
+    {
+        for (int j = 1; j <= book[i]; ++j)
+        {
+            printf("%d", i);
+        }
+    }
+    return 0;
+}
+```
+
 ## 冒泡排序
 
 ``` c++
