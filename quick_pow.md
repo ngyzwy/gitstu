@@ -1,3 +1,5 @@
+## 快速幂
+
 ``` c++
 long long quick_pow(long long x, long long y)
 {
