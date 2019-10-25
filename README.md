@@ -49,4 +49,4 @@
 [test](test.md)&emsp;
 
 
-![1024](icpc.png)
+![icpc](icpc.png)
