@@ -24,7 +24,7 @@
 ## 动态规划
 
 [记忆化搜索](memo.md)&emsp;
-[背包DP](knapsack.md)&emsp;
+[背包DP](pack_dp.md)&emsp;
 [区间DP]()&emsp;
 [DAG上的DP]()&emsp;
 [树形DP]()&emsp;
