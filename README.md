@@ -38,12 +38,14 @@
 
 ## 字符串
 
+[哈希](hash.md)&emsp;
 [字典树](trie.md)&emsp;
 [01字典树](01trie.md)&emsp;
 [KMP](kmp.md)&emsp;
 [扩展KMP](exkmp.md)&emsp;
 [AC自动机](ac_automaton.md)&emsp;
 [马拉车](manacher.md)&emsp;
+[回文自动机](pam.md)&emsp;
 
 ## 数学
 
