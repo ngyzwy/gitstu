@@ -38,8 +38,8 @@
 
 ## 字符串
 
-[字典树](Trie.md)&emsp;
-[01字典树](01Trie.md)&emsp;
+[字典树](trie.md)&emsp;
+[01字典树](01trie.md)&emsp;
 [KMP](kmp.md)&emsp;
 [扩展KMP](exkmp.md)&emsp;
 [AC自动机](ac_automaton.md)&emsp;
