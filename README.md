@@ -49,10 +49,20 @@
 
 ## 数学
 
+[埃氏筛]()&emsp;
+[欧拉筛]()&emsp;
 [最大公约数](gcd.md)&emsp;
 [最小公倍数](lcm.md)&emsp;
 [扩展欧几里得](exgcd.md)&emsp;
 [快速幂](quick_pow.md)&emsp;
+[矩阵乘法优化]()&emsp;
+[矩阵快速幂]()&emsp;
+[组合数]()&emsp;
+[逆元]()&emsp;
+[欧拉函数]()&emsp;
+[四平方定理]()&emsp;
+[博弈论]()&emsp;
+[01分数规划]()&emsp;
 
 ## 数据结构
 
@@ -60,16 +70,23 @@
 [二维RMQ](rmq2.md)&emsp;
 [树状数组]()&emsp;
 [并查集]()&emsp;
+[线段树]()&emsp;
+[主席树]()&emsp;
 [单调栈]()&emsp;
 [单调队列]()&emsp;
-[线段树]()&emsp;
+[分块]()&emsp;
+[莫队]()&emsp;
 
 ## 图论
 
+[邻接表]()&emsp;
+[链式前向星]()&emsp;
 [拓扑排序]()&emsp;
-[最短路]()&emsp;
-[最小生成树]()&emsp;
-[强连通分量]()&emsp;
+[Dijkstra]()&emsp;
+[Floyd](floyd.md)&emsp;
+[Prim]()&emsp;
+[Kruskal]()&emsp;
+[Tarjan]()&emsp;
 [二分图]()&emsp;
 [网络流]()&emsp;
 
@@ -80,7 +97,11 @@
 ## 其它技巧
 
 [__int128](__int128.md)&emsp;
-[队列清空及定义排序规则]()&emsp;
+[运算符重载](operator.md)&emsp;
+[队列清空&排序](que_clear.md)&emsp;
+[全排列函数]()&emsp;
+[取模优化]()&emsp;
+[离散化]()&emsp;
 
 ## Test
 
