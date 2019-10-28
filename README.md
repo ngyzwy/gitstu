@@ -8,6 +8,7 @@
 [三分](three_points.md)&emsp;
 [前缀和](prefix_sum.md)&emsp;
 [差分](difference.md)&emsp;
+[尺取]()&emsp;
 
 ## 搜索
 
@@ -63,6 +64,9 @@
 [四平方定理]()&emsp;
 [博弈论]()&emsp;
 [01分数规划]()&emsp;
+[Dinkelbach算法]()&emsp;
+[最优比率生成树]()&emsp;
+[最优比率生成环]()&emsp;
 
 ## 数据结构
 
@@ -71,7 +75,11 @@
 [树状数组]()&emsp;
 [并查集]()&emsp;
 [线段树]()&emsp;
+[权值线段树]()&emsp;
+[线段树染色]()&emsp;
 [主席树]()&emsp;
+[可持久化数组]()&emsp;
+[可持久化并查集]()&emsp;
 [单调栈]()&emsp;
 [单调队列]()&emsp;
 [分块]()&emsp;
@@ -92,16 +100,22 @@
 
 ## 计算几何
 
-## 专题
+## 其它
 
-## 其它技巧
-
+[C/C++文件编译](compile.md)&emsp;
+[输入输出优化](input_output.md)&emsp;
+[对拍](duipai.md)&emsp;
 [__int128](int128.md)&emsp;
 [运算符重载](operator.md)&emsp;
 [队列清空&排序](que_clear.md)&emsp;
 [全排列函数]()&emsp;
 [取模优化]()&emsp;
 [离散化]()&emsp;
+[随机数]()&emsp;
+[反素数]()&emsp;
+[分解质因数]()&emsp;
+[基姆拉尔森计算公式]()&emsp;
+[二叉树遍历]()&emsp;
 
 ## Test
 
