@@ -1,5 +1,7 @@
 # Accept
 
+<div><script type="text/javascript" src="http://ip.t086.com/getip.php"></script></div>
+
 ## 基础
 
 [递归&分治](conquer.md)&emsp;
