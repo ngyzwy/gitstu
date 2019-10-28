@@ -96,7 +96,7 @@
 
 ## 其它技巧
 
-[__int128](__int128.md)&emsp;
+[__int128](int128.md)&emsp;
 [运算符重载](operator.md)&emsp;
 [队列清空&排序](que_clear.md)&emsp;
 [全排列函数]()&emsp;
