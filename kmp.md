@@ -7,7 +7,7 @@ void get_nxt() //获取next数组
     j = nxt[0] = -1;
     while (i < m) //m为模式串长度 
     {
-        if (-1 != j || p[i] == p[j]) //p为模式串 
+        if (-1 == j || p[i] == p[j]) //p为模式串 
         {
             i++;
             j++;
@@ -26,7 +26,7 @@ int kmp() //返回模式串在主串出现的次数
     int i = 0, j = 0, cnt = 0;
     while (i < n) //n为主串长度 
     {
-        if (-1 == j || t[i] == t[j])
+        if (-1 == j || t[i] == p[j])
         {
             i++;
             j++;
