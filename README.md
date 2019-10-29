@@ -47,11 +47,12 @@
 [AC自动机](ac_automaton.md)&emsp;
 [马拉车](manacher.md)&emsp;
 [回文自动机](pam.md)&emsp;
+[序列自动机](seq_automaton.md)&emsp;
 
 ## 数学
 
-[埃氏筛]()&emsp;
-[欧拉筛]()&emsp;
+[埃氏筛](sieve.md)&emsp;
+[欧拉筛](oulashai.md)&emsp;
 [最大公约数](gcd.md)&emsp;
 [最小公倍数](lcm.md)&emsp;
 [扩展欧几里得](exgcd.md)&emsp;
@@ -87,15 +88,15 @@
 
 ## 图论
 
-[邻接表]()&emsp;
-[链式前向星]()&emsp;
-[拓扑排序]()&emsp;
-[Dijkstra]()&emsp;
+[邻接表](adjacency_list.md)&emsp;
+[链式前向星](star.md)&emsp;
+[拓扑排序](topo.md)&emsp;
+[Dijkstra](dijkstra.md)&emsp;
 [Floyd](floyd.md)&emsp;
-[Prim]()&emsp;
-[Kruskal]()&emsp;
-[Tarjan]()&emsp;
-[二分图]()&emsp;
+[Prim](prim.md)&emsp;
+[Kruskal](kruskal.md)&emsp;
+[Tarjan](tarjan.md)&emsp;
+[二分图匹配]()&emsp;
 [网络流]()&emsp;
 
 ## 计算几何
@@ -109,13 +110,13 @@
 [运算符重载](operator.md)&emsp;
 [队列清空&排序](que_clear.md)&emsp;
 [全排列函数]()&emsp;
-[取模优化]()&emsp;
-[离散化]()&emsp;
-[随机数]()&emsp;
-[反素数]()&emsp;
-[分解质因数]()&emsp;
-[基姆拉尔森计算公式]()&emsp;
-[二叉树遍历]()&emsp;
+[取模优化](mod.md)&emsp;
+[离散化](discretization.md)&emsp;
+[随机数](random.md)&emsp;
+[反素数](anti_prime.md)&emsp;
+[分解质因数](Prime_factors.md)&emsp;
+[基姆拉尔森计算公式](kim_larsen.md)&emsp;
+[二叉树遍历](binary_tree.md)&emsp;
 
 ## Test
 
