@@ -7,6 +7,7 @@
 ``` c++
 #include <iostream>
 using namespace std;
+
 int main ()
 {
     int a, b;
@@ -21,6 +22,7 @@ int main ()
 ``` c++
 #include <iostream>
 using namespace std;
+
 int main ()
 {
     int a, b;
@@ -38,8 +40,11 @@ int main ()
 #include <cstdlib>
 #include <cstdio>
 #include <ctime>
+
 #define random(a, b) (rand()%(b-a+1)+a)
+
 using namespace std;
+
 int main (int argc, char *argv[])
 {
     int seed = time(NULL);
