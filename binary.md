@@ -3,7 +3,7 @@
 ``` c++
 int arr[MAXN];
 
-int binary_search(int l, int y, int key)
+int binary_search(int l, int r, int key)
 {
     int mid;
     while (l <= r)
