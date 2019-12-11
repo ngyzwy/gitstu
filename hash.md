@@ -76,3 +76,62 @@ hash = ((hash[r] - hash[l - 1] * p ^ (r - l + 1)) 5 M + M) % M;
 预处理p的n的方效果更佳
 */
 ```
+
+## 拉链法处理hash冲突
+
+```c++
+const int SIZE = 1000000;
+const int M = 999997;
+struct HashTable {
+	struct Node {
+		int next, value, key;
+	} data[SIZE];
+	int head[M], size;
+	int f(int key) {
+		return key % M;
+	}
+	int get(int key) {
+		for (int p = head[f(key)]; p; p = data[p].next)
+			if (data[p].key == key) return data[p].value;
+		return -1;
+	}
+	int modify(int key, int value) {
+		for (int p = head[f(key)]; p; p = data[p].next)
+			if (data[p].key == key) return data[p].value = value;
+	}
+	int add(int key, int value) {
+		if (get(key) != -1) return -1;
+		data[++size] = (Node) {
+			head[f(key)], value, key
+		};
+		head[f(key)] = size;
+		return value;
+	}
+};
+```
+
+## 封装过的模板，可以像 map 一样用
+
+```c++
+struct hash_map {  // 哈希表模板
+	struct data {
+		long long u;
+		int v, nex;
+	};                // 前向星结构
+	data e[SZ << 1];  // SZ 是 const int 表示大小
+	int h[SZ], cnt;
+	int hash(long long u) {
+		return u % SZ;
+	}
+	int& operator[](long long u) {
+		int hu = hash(u);  // 获取头指针
+		for (int i = h[hu]; i; i = e[i].nex)
+			if (e[i].u == u) return e[i].v;
+		return e[++cnt] = (data) {u, -1, h[hu]}, h[hu] = cnt, e[cnt].v;
+	}
+	hash_map() {
+		cnt = 0;
+		memset(h, 0, sizeof(h));
+  }
+};
+```
